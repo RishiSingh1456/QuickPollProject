@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quick Poll</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background">
+    <div class="shape"></div>
+    <div class="shape"></div>
+  </div>
+
+  <div class="container">
+    <h1>Quick Poll 🗳️</h1>
+
+    <!-- Poll Creation -->
+    <div class="create-poll">
+      <input type="text" id="question" placeholder="Poll Question">
+      <input type="text" id="options" placeholder="Options (comma-separated)">
+      <button onclick="createPoll()">Create Poll</button>
+    </div>
+
+    <div id="poll-area"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
