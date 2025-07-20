@@ -9,8 +9,6 @@ A lightweight and beautiful web-based polling app built using HTML, CSS, and Jav
 - Responsive and animated UI
 - No backend or database required
 
-##  Demo
-> [Add GitHub Pages link here after hosting]
 
 ##  File Structure
 1. index.html # Main HTML page
